@@ -1,0 +1,17 @@
+export const plantsDatabase = [
+    { id: 1, name: 'Chamomile', model: '/models/Chamomile.glb', position: [-100, 10, -100], position2: [1*4, 1, 0] },
+    { id: 2, name: 'AloeVera', model: '/models/AloeVera.glb', position: [-80, 10, -60], position2: [0.3090*4, 1, 0.9511*4] },
+    { id: 3, name: 'Echinacea', model: '/models/Echinacea.glb', position: [-60, 10, -20], position2: [-0.809048*4, 1, 0.5878*4] },
+    { id: 4, name: 'Peppermint', model: '/models/Peppermint.glb', position: [-40, 10, 20], position2: [-0.8090*4, 1, -0.5878*4] },
+    { id: 5, name: 'Basil', model: '/models/Basil.glb', position: [-20, 10, 60], position2: [0.3090*4, 1, -0.9511*4] },
+    { id: 6, name: 'Rosemary', model: '/models/Rosemary.glb', position: [0, 10, 100], position2: [0.5*4, 1, 0.866*4] },
+    { id: 7, name: 'Oregano', model: '/models/Oregano.glb', position: [20, 10, 60], position2: [-0.5*4, 1, 0.866*4] },
+    { id: 8, name: 'Parsley', model: '/models/Parsley.glb', position: [40, 10, 20], position2: [0.866*4, 1, 0.5*4] },
+    { id: 9, name: 'Turmeric', model: '/models/Turmeric.glb', position: [60, 10, -20], position2: [-0.866*4, 1, 0.5*4] },
+    { id: 10, name: 'StJohnsWort', model: '/models/StJohnsWort.glb', position: [80, 10, -60], position2: [0.9511*4, 1, 0.3090*4] },
+    { id: 11, name: 'Passionflower', model: '/models/Passionflower.glb', position: [100, 10, -100], position2: [-0.9511*4, 1, 0.3090*4] },
+    { id: 12, name: 'Calendula', model: '/models/Calendula.glb', position: [-120, 10, 120], position2: [0.707*4, 1, 0.707*4] },
+    { id: 13, name: 'Lavender', model: '/models/Lavender.glb', position: [-90, 10, 90], position2: [-0.707*4, 1, 0.707*4] },
+    { id: 14, name: 'RedClover', model: '/models/RedClover.glb', position: [-70, 10, 70], position2: [0.5*4, 1, 0.866*4] },
+    { id: 15, name: 'Sage', model: '/models/Sage.glb', position: [-50, 10, 50], position2: [-0.5*4, 1, 0.866*4] },
+];
