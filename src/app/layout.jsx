@@ -1,22 +1,22 @@
-import { Inter } from "next/font/google";
-import { ThemeProvider } from "next-themes";
-import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
-
+import './globals.css';
+import Routes from '../components/Routes';
 export const metadata = {
-  title: "Virtural Herbal Garden",
-  description: "A virtual garden to learn about herbs",
+    title: 'Virtual Herbal Garden',
+    description: 'Explore the world of medicinal plants.',
 };
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light">
-          <div>{children}</div>
-        </ThemeProvider>
-      </body>
-    </html>
-  );
-}
+const RootLayout = ({ children }) => {
+    return (
+        <html lang="en">
+            <head>
+                <link rel="icon" href="/logo.ico"/>
+            </head>        
+            <body>
+                <Routes />
+                <main>{children}</main>
+            </body>
+        </html>
+    );
+};
+
+export default RootLayout;

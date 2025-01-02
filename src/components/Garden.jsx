@@ -116,14 +116,10 @@ const Sidebar = ({ herbs, onHerbClick, onSearch, onClear, showClear }) => {
   );
 
   return (
-    <div className="fixed top-0 left-0 h-full w-64 bg-gradient-to-b from-emerald-700 to-emerald-900 shadow-2xl z-50 overflow-hidden">
-      <div className="bg-emerald-600 p-4 flex items-center space-x-3 border-b border-emerald-500 shadow-md">
-        <Leaf className="text-white w-8 h-8" />
-        <h2 className="text-2xl font-bold text-white">Herbal Guide</h2>
-      </div>
+    <div className="fixed top-16 left-0 h-[calc(100vh-4rem)] w-64 bg-gradient-to-b from-[rgba(56,79,1,255)] to-[rgba(56,49,51,255)] shadow-2xl z-40 overflow-hidden">
       
       <div className="p-4 border-b border-emerald-700">
-        <div className="flex items-center bg-emerald-800 rounded-lg px-3 py-2 space-x-2">
+        <div className="flex items-center bg-[rgba(56,99,1,255)] rounded-lg px-3 py-2 space-x-2">
           <Search className="text-emerald-300 w-5 h-5" />
           <input 
             type="text" 
@@ -141,7 +137,7 @@ const Sidebar = ({ herbs, onHerbClick, onSearch, onClear, showClear }) => {
         </div>
       </div>
       
-      <ul className="overflow-y-auto h-[calc(100vh-200px)] scrollbar-thin scrollbar-thumb-emerald-500 scrollbar-track-emerald-700">
+      <ul className="overflow-y-auto h-[calc(100vh-10rem)] scrollbar-thin scrollbar-thumb-emerald-500 scrollbar-track-emerald-700">
         {filteredHerbs.map((herb) => (
           <li 
             key={herb.id} 

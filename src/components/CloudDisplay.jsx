@@ -17,7 +17,7 @@ const RevolvingPlant = ({ model, position, onClick, herb, name }) => {
   });
 
   useFrame(({ clock }) => {
-    const t = clock.getElapsedTime() * 0.5;
+    const t = clock.getElapsedTime() * 0.7;
     groupRef.current.position.x =
       position[0] * Math.cos(t) - position[2] * Math.sin(t);
     groupRef.current.position.z =
@@ -93,9 +93,6 @@ export const CloudDisplay = () => {
           herb={selectedHerb}
         />
       )}
-      <Link href="/Garden">
-        <button>Explore</button>
-      </Link>
     </div>
   );
 };
