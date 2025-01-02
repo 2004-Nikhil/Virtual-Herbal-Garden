@@ -1,5 +1,5 @@
 import { VirtualHerbalGarden } from "@/components/VirtualHerbalGarden";
-import CloudDisplay from "@/components/TheGarden/CloudDisplay";
+import CloudDisplay from "@/components/CloudDisplay";
 
 export default function Home() {
   return (

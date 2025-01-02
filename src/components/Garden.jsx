@@ -6,12 +6,12 @@ import { Canvas, useLoader } from '@react-three/fiber';
 import { OrbitControls, Html } from '@react-three/drei';
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { MeshoptDecoder } from "three/examples/jsm/libs/meshopt_decoder.module.js";
-import { plantsDatabase } from '../../data/plants';
+import { plantsDatabase } from '../data/plants';
 import GrassScene from "./GrassScene";
 import { DRACOLoader } from 'three/examples/jsm/loaders/DRACOLoader';
 import { KTX2Loader } from 'three/examples/jsm/loaders/KTX2Loader.js';
 import { HerbModal } from './HerbModal';
-import { herbs } from '../../data/herbs2';
+import { herbs } from '../data/herbs2';
 import { EXRLoader } from 'three/examples/jsm/loaders/EXRLoader';
 import { Leaf, BookOpen, Search, X, ChevronLeft, ChevronRight } from 'lucide-react'; // Import Chevron icons
 

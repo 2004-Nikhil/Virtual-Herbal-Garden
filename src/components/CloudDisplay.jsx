@@ -6,8 +6,8 @@ import { OrbitControls, Environment, Cloud, Text } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { MeshoptDecoder } from "three/examples/jsm/libs/meshopt_decoder.module.js";
 import { HerbModal } from "./HerbModal";
-import { herbs } from "../../data/herbs2";
-import { plantsDatabase } from "../../data/plants";
+import { herbs } from "../data/herbs2";
+import { plantsDatabase } from "../data/plants";
 import Link from "next/link";
 
 const RevolvingPlant = ({ model, position, onClick, herb, name }) => {
